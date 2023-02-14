@@ -49,7 +49,7 @@ useEffect(() => {
               <h1 class="text-black text-2xl google-font type-animation">My Name is Ezequiel Aleman</h1>
             </div>
             <p class="text-white google-font text-5xl leading-tight">
-             I am a fullstack website developer specialsings in frontend development.</p>
+             I am a fullstack website developer specialsings in frntend development.</p>
               <div class="mt-8 flex flex-auto ">
                 <a href="https://tailwindcss.com/docs/theme" class="text-white border-2 py-4 px-14 mr-8 other-font">Click here</a>
                 <a href="https://tailwindcss.com/docs/theme" class="text-white border-2 py-4 px-14 other-font">Click here</a>
