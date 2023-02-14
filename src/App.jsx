@@ -46,7 +46,7 @@ useEffect(() => {
         <div class="bg-yellow-700 w-full h-fit min-h-screen flex justify-center items-center relative">
           <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col">
             <div class="w-fit">
-              <h1 class="text-black text-2xl google-font type-animation">My Name is Eequiel Aleman</h1>
+              <h1 class="text-black text-2xl google-font type-animation">My Name is Ezequiel Aleman</h1>
             </div>
             <p class="text-white google-font text-5xl leading-tight">
              I am a fullstack website developer specialsing in frontend development.</p>
@@ -68,10 +68,10 @@ useEffect(() => {
             </div>
             <div class="text-left w-96 flex flex-col gap-y-6">
               <h1 class="text-black google-font text-5xl">About me</h1>
-              <p class="text-gray-600 google-font text-xl leading-tight">Lorem ipsum dolor sit amet consecetur adipisicing elit. Quod delectus sunt assumenda eos nostrum ad facilis veritatis, vitae
+              <p class="text-gray-600 google-font text-xl leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus sunt assumenda eos nostrum ad facilis veritatis, vitae
                  laudantium in consequatur harum eum. Quibusdam rem, aut nihil commodi voluptates sunt.</p>
                  <p class="text-gray-600 google-font text-xl leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus sunt assumenda eos nostrum ad facilis veritatis, vitae
-                 laudantium in consequatur harum eum. Quibusdam rm, aut nihil commodi voluptates sunt.</p>
+                 laudantium in consequatur harum eum. Quibusdam rem, aut nihil commodi voluptates sunt.</p>
                <button class="google-font w-40 p-2 border-white border-2 rounded-3xl bg-slate-400 hover:bg-slate-700 delay-100 duration-300">Download Resume</button>  
             </div>
           </div>
