@@ -46,10 +46,10 @@ useEffect(() => {
         <div class="bg-yellow-700 w-full h-fit min-h-screen flex justify-center items-center relative">
           <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col">
             <div class="w-fit">
-              <h1 class="text-black text-2xl google-font type-animation">My Name is ??</h1>
+              <h1 class="text-black text-2xl google-font type-animation">My Name is Ezequiel Aleman</h1>
             </div>
             <p class="text-white google-font text-5xl leading-tight">
-             I am a fullstack website develper specialsings in frntend development.</p>
+             I am a fullstack website developer specialising in frontend development.</p>
               <div class="mt-8 flex flex-auto ">
                 <a href="https://tailwindcss.com/docs/theme" class="text-white border-2 py-4 px-14 mr-8 other-font">Click here</a>
                 <a href="https://tailwindcss.com/docs/theme" class="text-white border-2 py-4 px-14 other-font">Click here</a>
@@ -64,7 +64,7 @@ useEffect(() => {
           </div>
           <div ref={myRefThree} class="flex flex-row gap-x-20 items-center">
             <div>
-              <img src="./src/images/155267199_1170701173384671_6474017597783076115_n (1).JPG" class="custom-width custom-height rounded-2xl"></img>
+              <img src="./src/images/profile.JPG" class="custom-width custom-height rounded-2xl"></img>
             </div>
             <div class="text-left w-96 flex flex-col gap-y-6">
               <h1 class="text-black google-font text-5xl">About me</h1>
@@ -106,7 +106,7 @@ useEffect(() => {
           <div ref={myRefTwo} class='bg-white grid grid-cols-2 grid-rows-2 gap-y-16 items-center justify-items-center'>
 
             <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
@@ -115,7 +115,7 @@ useEffect(() => {
             </div>
 
             <div class={`${myElementIsVisibleTwo ? " transition duration-1000 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110"
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
              
               <div class="bg-white/75  rounded-b-xl">
                 <h1 class="text-slate-500 text-2xl google-font text-center">The Mobile Hour Website</h1>
@@ -123,7 +123,7 @@ useEffect(() => {
               </div>
             </div>
             <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110"
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
              
               <div class="bg-white/75  rounded-b-xl">
                 <h1 class="text-slate-500 text-2xl google-font text-center">Weather API</h1>
@@ -131,7 +131,7 @@ useEffect(() => {
               </div>
             </div>
             <div class={`${myElementIsVisibleTwo ? " transition duration-1000 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110"
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
               <div class="bg-white/75  rounded-b-xl">
                 <h1 class="text-slate-500 text-2xl google-font text-center">ML Strength Website</h1>
                 <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
