@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import './css/style.css'
 import image from  "/public/profile.jpg"
+import background from  "/public/pexels-aleksandar-pasaric-3310691.jpg"
 
 function App() {
 
@@ -101,22 +102,21 @@ useEffect(() => {
           </div>
          
         </div>
-        <img src="/public/pexels-aleksandar-pasaric-3310691.jpg"></img>
        
         <div class="bg-white w-full h-auto items-center justify-items-center my-12">
           <h1 class="text-black google-font text-5xl text-center pb-16 ">Projects</h1>
           <div ref={myRefTwo} class='bg-white grid grid-cols-2 grid-rows-2 gap-y-16 items-center justify-items-center'>
 
-          <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+          <div style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
                 <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
               </div>
             </div>
-            <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            <div style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl  bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
@@ -124,16 +124,16 @@ useEffect(() => {
               </div>
             </div>
 
-            <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            <div  style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
                 <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
               </div>
             </div>
-            <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            <div  style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
