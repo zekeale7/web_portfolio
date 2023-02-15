@@ -70,10 +70,11 @@ useEffect(() => {
             </div>
             <div class="text-left w-96 flex flex-col gap-y-6">
               <h1 class="text-black google-font text-5xl">About me</h1>
-              <p class="text-gray-600 google-font text-xl leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus sunt assumenda eos nostrum ad facilis veritatis, vitae
-                 laudantium in consequatur harum eum. Quibusdam rem, aut nihil commodi voluptates sunt.</p>
-                 <p class="text-gray-600 google-font text-xl leading-tight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod delectus sunt assumenda eos nostrum ad facilis veritatis, vitae
-                 laudantium in consequatur harum eum. Quibusdam rem, aut nihil commodi voluptates sunt.</p>
+              <p class="text-gray-600 text-xl leading-tight">I've been studying website development for the past 2 years and have recently 
+              completed my diploma of information Technology, specialsing in frontend and backend web development. I'm currently undertaking a bachelor of Information Technology at Queensland University of Technology.</p>
+
+                 <p class="text-gray-600 text-xl leading-tight">As a programmer, i'm enthusiastic about learning new technologies, and applying them to my personal projects. 
+                 I particualy enjoy problem solving and thinking creatively to overcome chanlleges faced in programming.</p>
                <button class="google-font w-40 p-2 border-white border-2 rounded-3xl bg-slate-400 hover:bg-slate-700 delay-100 duration-300">Download Resume</button>  
             </div>
           </div>
@@ -86,13 +87,17 @@ useEffect(() => {
         </div>
         <div class="bg-yellow-500 w-full h-fit min-h-screen flex justify-center px-16 text-center items-center relative">
           <div ref={myRef}>
-            <h1 class={` ${myElementIsVisible ? ' transition-all duration-1000 text-white text-8xl google-font leading-tight translate-x-0 blur-none' : "blur-sm opacity-0 text-white text-8xl google-font leading-tight -translate-x-full" }`}>Hello There! I am skilled in the following languages</h1>
+            <h1 class={` ${myElementIsVisible ? ' transition-all duration-500 text-white text-8xl google-font leading-tight translate-x-0' : "text-white text-8xl google-font leading-tight -translate-x-full" }`}>I am skilled in the following technologies:</h1>
             
+          <div>
+            <div>
+              
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="custom-height custom-width" />
           
-            <p class={` ${myElementIsVisible ? ' transition-all duration-1000 text-white text-2xl google-font leading-tight translate-x-0 blur-none' : " opacity-0 text-white text-2xl google-font leading-tight -translate-x-full blur-sm  " }`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius inventore dolore voluptate, 
-            molestias distinctio tenetur deserunt quos at 
-            rerum sed corrupti corporis tempora nemo, laboriosam quasi repellat. Veniam, quia nesciunt!</p>
+          
+            </div>
+          </div>
 
           </div>
           <div class="custom-shape-divider-bottom-1676258959">
@@ -107,16 +112,16 @@ useEffect(() => {
           <h1 class="text-black google-font text-5xl text-center pb-16 ">Projects</h1>
           <div ref={myRefTwo} class='bg-white grid grid-cols-2 grid-rows-2 gap-y-16 items-center justify-items-center'>
 
-          <div style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+          <div style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover duration-500 -translate-x-full"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
                 <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
               </div>
             </div>
-            <div style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl  bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            <div style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 custom-width h-72 bg-white rounded-r-xl rounded-l-xl  bg-cover flex items-end justify-center hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover duration-500 -translate-x-full"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
@@ -124,16 +129,16 @@ useEffect(() => {
               </div>
             </div>
 
-            <div  style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            <div  style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover duration-500 -translate-x-full"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
                 <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
               </div>
             </div>
-            <div  style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            <div  style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover duration-500 -translate-x-full"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
