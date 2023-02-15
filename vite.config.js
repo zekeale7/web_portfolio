@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
     plugins: [react()],
     base: "/web_portfolio/",
+    publicDir: "/public",
     server: {
         proxy: {
             '/api': {
