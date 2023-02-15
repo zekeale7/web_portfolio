@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import './css/style.css'
+import image from  "/public/pexels-aleksandar-pasaric-3310691.jpg"
 
 function App() {
 
@@ -64,7 +65,7 @@ useEffect(() => {
           </div>
           <div ref={myRefThree} class="flex flex-row gap-x-20 items-center">
             <div>
-              <img src="/assets/images/profile.JPG" class="custom-width custom-height rounded-2xl"></img>
+              <img src={image} class="custom-width custom-height rounded-2xl"></img>
             </div>
             <div class="text-left w-96 flex flex-col gap-y-6">
               <h1 class="text-black google-font text-5xl">About me</h1>
