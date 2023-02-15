@@ -64,7 +64,7 @@ useEffect(() => {
           </div>
           <div ref={myRefThree} class="flex flex-row gap-x-20 items-center">
             <div>
-              <img src="/profile.JPG" class="custom-width custom-height rounded-2xl"></img>
+              <img src="/public/assets/profile.JPG" class="custom-width custom-height rounded-2xl"></img>
             </div>
             <div class="text-left w-96 flex flex-col gap-y-6">
               <h1 class="text-black google-font text-5xl">About me</h1>
@@ -105,8 +105,16 @@ useEffect(() => {
           <h1 class="text-black google-font text-5xl text-center pb-16 ">Projects</h1>
           <div ref={myRefTwo} class='bg-white grid grid-cols-2 grid-rows-2 gap-y-16 items-center justify-items-center'>
 
+          <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+             
+              <div class='bg-white/75 rounded-b-xl'>
+                <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
+                <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
+              </div>
+            </div>
             <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
               <div class='bg-white/75 rounded-b-xl'>
                 <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
@@ -114,26 +122,19 @@ useEffect(() => {
               </div>
             </div>
 
-            <div class={`${myElementIsVisibleTwo ? " transition duration-1000 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110"
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
+            <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
-              <div class="bg-white/75  rounded-b-xl">
-                <h1 class="text-slate-500 text-2xl google-font text-center">The Mobile Hour Website</h1>
+              <div class='bg-white/75 rounded-b-xl'>
+                <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
                 <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
               </div>
             </div>
-            <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110"
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
+            <div class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110 "
+            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover shadow-2xl hover:-translate-y-1 hover:scale-110 duration-100 opacity-0 -translate-x-full blur-sm"}`}>
              
-              <div class="bg-white/75  rounded-b-xl">
-                <h1 class="text-slate-500 text-2xl google-font text-center">Weather API</h1>
-                <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
-              </div>
-            </div>
-            <div class={`${myElementIsVisibleTwo ? " transition duration-1000 translate-x-0 blur-none custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.jpg')] bg-cover flex items-end justify-center shadow-2xl hover:-translate-y-1 hover:scale-110"
-            : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-[url('./src/images/pexels-aleksandar-pasaric-3310691.JPG')] bg-cover shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 opacity-0 -translate-x-full blur-sm "}`}>
-              <div class="bg-white/75  rounded-b-xl">
-                <h1 class="text-slate-500 text-2xl google-font text-center">ML Strength Website</h1>
+              <div class='bg-white/75 rounded-b-xl'>
+                <h1 class="text-slate-500 text-2xl google-font text-center">High Street Gym Website</h1>
                 <p class="text-slate-500 text-1xl google-font text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quisquam deleniti temporibus non, .</p>
               </div>
             </div>
