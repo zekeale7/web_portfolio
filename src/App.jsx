@@ -64,7 +64,7 @@ useEffect(() => {
           </div>
           <div ref={myRefThree} class="flex flex-row gap-x-20 items-center">
             <div>
-              <img src="/public/assets/profile.JPG" class="custom-width custom-height rounded-2xl"></img>
+              <img src="/public/profile.JPG" class="custom-width custom-height rounded-2xl"></img>
             </div>
             <div class="text-left w-96 flex flex-col gap-y-6">
               <h1 class="text-black google-font text-5xl">About me</h1>
@@ -100,6 +100,7 @@ useEffect(() => {
           </div>
          
         </div>
+        <img src="/public/pexels-aleksandar-pasaric-3310691.jpg"></img>
        
         <div class="bg-white w-full h-auto items-center justify-items-center my-12">
           <h1 class="text-black google-font text-5xl text-center pb-16 ">Projects</h1>
