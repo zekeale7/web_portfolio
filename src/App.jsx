@@ -46,7 +46,7 @@ useEffect(() => {
         <div class="bg-yellow-700 w-full h-fit min-h-screen flex justify-center items-center relative">
           <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col">
             <div class="w-fit">
-              <h1 class="text-black text-2xl google-font type-animation">My Name is Ezequiel Aleman</h1>
+              <h1 class="text-black text-2xl google-font type-animation">My Name is ??</h1>
             </div>
             <p class="text-white google-font text-5xl leading-tight">
              I am a fullstack website develper specialsings in frntend development.</p>
