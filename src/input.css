@@ -27,6 +27,10 @@
     }
 }
 
+.sm-custom-width {
+    width: 600px;
+}
+
 .custom-width {
     width: 450px;
 }
