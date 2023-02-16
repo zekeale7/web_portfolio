@@ -44,8 +44,8 @@ useEffect(() => {
 
 
   return (
-    <div className="App" class="h-screen lg:w-screen">
-        <div class="bg-yellow-700 w-full h-fit min-h-screen flex justify-center items-center relative lg:text-center lg:px-20">
+    <div className="App" class="h-screen lg:w-full lg:m-0 lg:p-0 lg:overflow-x-hidden  ">
+        <div class="bg-yellow-700 w-full h-fit min-h-screen flex justify-center items-center relative lg:text-center lg:px-20 ">
           <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col lg:m-0 lg:justify-center lg:custom-width">
             <div class="lg:flex lg:justify-center">
             <div class="w-fit lg:w-fit">
@@ -63,7 +63,7 @@ useEffect(() => {
          <div class="bg-yellow-100 w-full h-fit min-h-screen flex justify-center px-16 text-center items-center relative lg:min-h=fit">
          <div class="custom-shape-divider-top-1676354291">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill "></path>
             </svg>
           </div>
           <div ref={myRefThree} class="flex flex-row gap-x-20 items-center lg:flex-col lg:items-center lg:justify-center lg:gap-0 lg:py-32">
@@ -83,13 +83,13 @@ useEffect(() => {
 
           <div class="custom-shape-divider-bottom-1676258472">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill md:-mb-1"></path>
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
             </svg>
         </div>
         </div>
-        <div class="bg-yellow-500 w-full h-fit min-h-screen flex justify-center items-center text-center relative">
+        <div class="bg-yellow-500 w-full h-fit flex justify-center items-center text-center relative py-32 px-20">
           <div ref={myRef}>
-            <h1 class={` ${myElementIsVisible ? ' transition-all duration-500 text-white text-8xl google-font leading-tight translate-x-0' : "text-white text-8xl google-font leading-tight -translate-x-full" }`}>I am skilled in the following technologies:</h1>
+            <h1 class={` ${myElementIsVisible ? ' transition-all duration-500 text-white pb-9 text-8xl google-font leading-tight translate-x-0 lg:text-6xl' : "text-white text-8xl google-font pb-9 leading-tight -translate-x-full lg:text-6xl" }`}>I am skilled in the following technologies:</h1>
             
           
             <div class="grid grid-cols-5 gap-8">
@@ -112,9 +112,6 @@ useEffect(() => {
               <i class="devicon-visualstudio-plain colored hover:scale-110 text-5xl"></i>
               <i class="devicon-wordpress-plain colored hover:scale-110 text-5xl"></i>      
             </div>
-         
-      
-
           </div>
           <div class="custom-shape-divider-bottom-1676258959">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -126,7 +123,7 @@ useEffect(() => {
        
         <div class="bg-white w-full h-auto items-center justify-items-center my-12">
           <h1 class="text-black google-font text-5xl text-center pb-16 ">Projects</h1>
-          <div ref={myRefTwo} class='bg-white grid grid-cols-2 grid-rows-2 gap-y-16 items-center justify-items-center'>
+          <div ref={myRefTwo} class='bg-white grid grid-cols-2 grid-rows-2 gap-y-16 items-center justify-items-center lg:grid-cols-1'>
 
           <div style={{backgroundImage: `url(${background})`}} class={`${myElementIsVisibleTwo ? " transition duration-500 translate-x-0 custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover flex items-end justify-center hover:-translate-y-1 hover:scale-110 "
             : "custom-width h-72 bg-white rounded-r-xl rounded-l-xl bg-cover duration-500 -translate-x-full"}`}>
@@ -163,16 +160,16 @@ useEffect(() => {
             </div>
             </div>
         </div>
-        <section class="bg-black w-full h-fit min-h-screen px-16 text-center relative justify-center flex flex-row gap-x-36">
+        <section class="bg-black w-full h-fit min-h-screen px-16 text-center relative justify-center flex flex-row gap-x-36 lg:flex-col lg:gap-0 lg:px-10 lg:h-fit">
         <div class="custom-shape-divider-top-1676259761">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
               <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
           </svg>
         </div>
-          <div class="flex text-left">
+          <div class="flex text-left lg:text-center lg:justify-center lg:pb-16">
             <div>
             <h1 class="text-white text-5xl google-font leading-tight pt-32 pb-10">Get in Touch</h1>
-              <form class="text-white flex flex-col gap-5 pb-10">
+              <form class="text-white flex flex-col gap-5 pb-10 lg:pb-0">
                 <input id="name" class="text-black custom-width p-2 rounded-md bg-slate-300 placeholder:text-black placeholder:opacity-50" placeholder='Name'></input>
                 <input id="phone" class="text-black opacity-1 custom-width p-2 rounded-md bg-slate-300 placeholder:text-black placeholder:opacity-50" placeholder='Phone'></input>
                 <input id="email" class="text-black opacity-1 custom-width p-2 rounded-md bg-slate-300 placeholder:text-black placeholder:opacity-50" placeholder='Email'></input>
@@ -181,9 +178,10 @@ useEffect(() => {
               </form>
             </div>
           </div>
-          <div class="flex text-left">
+          <hr class="pt-10"></hr>
+          <div class="flex text-left lg:text-center lg:justify-center lg:pb-20">
           <div>
-            <h1 class="text-white text-5xl google-font leading-tight pt-32 pb-10">My Contact Details</h1>
+            <h1 class="text-white text-5xl google-font leading-tight pt-32 pb-10 lg:pt-10">My Contact Details</h1>
               <ul class="flex flex-col gap-y-7">
                 <li class="text-gray-500 text-sm">EMAIL:</li>
                 <li class="text-white text-sm">zekeale777@gmail.com</li>
