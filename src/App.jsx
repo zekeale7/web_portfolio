@@ -85,19 +85,32 @@ useEffect(() => {
             </svg>
         </div>
         </div>
-        <div class="bg-yellow-500 w-full h-fit min-h-screen flex justify-center px-16 text-center items-center relative">
+        <div class="bg-yellow-500 w-full h-fit min-h-screen text-center relative">
           <div ref={myRef}>
             <h1 class={` ${myElementIsVisible ? ' transition-all duration-500 text-white text-8xl google-font leading-tight translate-x-0' : "text-white text-8xl google-font leading-tight -translate-x-full" }`}>I am skilled in the following technologies:</h1>
             
-          <div>
-            <div>
-              
-            
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="custom-height custom-width" />
-          
-          
+        
+            <div class="grid grid-cols-3 gap-5">
+              <i class="devicon-html5-plain-wordmark colored hover:-translate-y-1 hover:scale-110 text-5xl "></i>
+              <i class="devicon-javascript-plain colored hover:-translate-y-1 hover:scale-110 text-5xl "></i>  
+              <i class="devicon-css3-plain-wordmark colored hover:-translate-y-1 hover:scale-110 text-5xl"></i>
+              <i class="devicon-react-original colored hover:-translate-y-1 hover:scale-110 text-5xl"></i>  
+              <i class="devicon-nodejs-plain-wordmark colored hover:-translate-y-1 hover:scale-110 text-5xl"></i>
+              <i class="devicon-express-original-wordmark colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-materialui-plain colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-tailwindcss-original-wordmark colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-mysql-plain-wordmark colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-mongodb-plain-wordmark colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-docker-plain colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-figma-plain colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-github-original colored hover:scale-110 text-5xl"></i>  
+              <i class="devicon-git-plain colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-npm-original-wordmark colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-python-plain colored  hover:scale-110 text-5xl"></i>
+              <i class="devicon-visualstudio-plain colored hover:scale-110 text-5xl"></i>
+              <i class="devicon-wordpress-plain colored hover:scale-110 text-5xl"></i>      
             </div>
-          </div>
+      
 
           </div>
           <div class="custom-shape-divider-bottom-1676258959">

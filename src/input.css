@@ -35,6 +35,10 @@
     height: 450px;
 }
 
+.size {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 
 /* Curve shapes */
 
