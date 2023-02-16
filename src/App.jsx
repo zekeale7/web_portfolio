@@ -44,36 +44,38 @@ useEffect(() => {
 
 
   return (
-    <div className="App" class="h-screen">
-        <div class="bg-yellow-700 w-full h-fit min-h-screen flex justify-center items-center relative">
-          <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col">
-            <div class="w-fit">
+    <div className="App" class="h-screen lg:w-screen">
+        <div class="bg-yellow-700 w-full h-fit min-h-screen flex justify-center items-center relative lg:text-center lg:px-20">
+          <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col lg:m-0 lg:justify-center lg:custom-width">
+            <div class="lg:flex lg:justify-center">
+            <div class="w-fit lg:w-fit">
               <h1 class="text-black text-2xl google-font type-animation">My Name is Ezequiel Aleman</h1>
             </div>
-            <p class="text-white google-font text-5xl leading-tight">
+          </div>
+            <p class="text-white google-font text-5xl leading-tight lg:text-blue-200">
              I am a fullstack website developer specialising in frontend development.</p>
-              <div class="mt-8 flex flex-auto ">
+              <div class="mt-8 flex flex-auto  lg:justify-center ">
                 <a href="https://tailwindcss.com/docs/theme" class="text-white border-2 py-4 px-14 mr-8 other-font">Click here</a>
                 <a href="https://tailwindcss.com/docs/theme" class="text-white border-2 py-4 px-14 other-font">Click here</a>
               </div>
           </div>
         </div>
-         <div class="bg-yellow-100 w-full h-fit min-h-screen flex justify-center px-16 text-center items-center relative">
+         <div class="bg-yellow-100 w-full h-fit min-h-screen flex justify-center px-16 text-center items-center relative lg:min-h=fit">
          <div class="custom-shape-divider-top-1676354291">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
             </svg>
           </div>
-          <div ref={myRefThree} class="flex flex-row gap-x-20 items-center">
+          <div ref={myRefThree} class="flex flex-row gap-x-20 items-center lg:flex-col lg:items-center lg:justify-center lg:gap-0 lg:py-32">
             <div>
               <img src={image} class="custom-width custom-height rounded-2xl"></img>
             </div>
-            <div class="text-left w-96 flex flex-col gap-y-6">
+            <div class="text-left custom-width flex flex-col gap-y-6 lg:text-center lg:gap-y-8 lg:justify-center lg:items-center">
               <h1 class="text-black google-font text-5xl">About me</h1>
-              <p class="text-gray-600 text-xl leading-tight">I've been studying website development for the past 2 years and have recently 
+              <p class="text-gray-600 google-font text-xl leading-tight">I've been studying website development for the past 2 years and have recently 
               completed my diploma of information Technology, specialsing in frontend and backend web development. I'm currently undertaking a bachelor of Information Technology at Queensland University of Technology.</p>
 
-                 <p class="text-gray-600 text-xl leading-tight">As a programmer, i'm enthusiastic about learning new technologies, and applying them to my personal projects. 
+                 <p class="text-gray-600 text-xl google-font leading-tight">As a programmer, i'm enthusiastic about learning new technologies, and applying them to my personal projects. 
                  I particualy enjoy problem solving and thinking creatively to overcome chanlleges faced in programming.</p>
                <button class="google-font w-40 p-2 border-white border-2 rounded-3xl bg-slate-400 hover:bg-slate-700 delay-100 duration-300">Download Resume</button>  
             </div>
@@ -81,16 +83,16 @@ useEffect(() => {
 
           <div class="custom-shape-divider-bottom-1676258472">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill md:-mb-1"></path>
             </svg>
         </div>
         </div>
-        <div class="bg-yellow-500 w-full h-fit min-h-screen text-center relative">
+        <div class="bg-yellow-500 w-full h-fit min-h-screen flex justify-center items-center text-center relative">
           <div ref={myRef}>
             <h1 class={` ${myElementIsVisible ? ' transition-all duration-500 text-white text-8xl google-font leading-tight translate-x-0' : "text-white text-8xl google-font leading-tight -translate-x-full" }`}>I am skilled in the following technologies:</h1>
             
-        
-            <div class="grid grid-cols-3 gap-5">
+          
+            <div class="grid grid-cols-5 gap-8">
               <i class="devicon-html5-plain-wordmark colored hover:-translate-y-1 hover:scale-110 text-5xl "></i>
               <i class="devicon-javascript-plain colored hover:-translate-y-1 hover:scale-110 text-5xl "></i>  
               <i class="devicon-css3-plain-wordmark colored hover:-translate-y-1 hover:scale-110 text-5xl"></i>
@@ -110,6 +112,7 @@ useEffect(() => {
               <i class="devicon-visualstudio-plain colored hover:scale-110 text-5xl"></i>
               <i class="devicon-wordpress-plain colored hover:scale-110 text-5xl"></i>      
             </div>
+         
       
 
           </div>
