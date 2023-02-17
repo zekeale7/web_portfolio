@@ -27,8 +27,17 @@
     }
 }
 
+.custom-duration {
+    transition-duration: 1200ms;
+}
+
 .sm-custom-width {
     width: 600px;
+}
+
+.h-big {
+    height: 5000px;
+    width: auto;
 }
 
 .custom-width {
