@@ -21,14 +21,14 @@ const ProfileSection = () => {
     
   return (
 
-    <div class="bg-gradient-to-r from-pink-500 to-yellow-500 w-full h-fit min-h-screen flex justify-center px-16 text-center items-center relative lg:min-h=fit sm:h-fit sm:px-10">
+    <div class="bg-gradient-to-r from-red-500 to-blue-500 w-full h-fit min-h-screen flex justify-center px-16 py-32 text-center items-center  lg:min-h=fit sm:h-fit sm:px-10">
    
-    <div ref={myRefThree}  class="flex flex-row gap-x-20 items-center lg:flex-col lg:items-center lg:justify-center lg:gap-0 lg:py-16 sm:w-full sm:h-fit">
+    <div ref={myRefThree}  class={`${myElementIsVisibleThree ? "transition-all custom-duration delay-700 translate-x-0 bg-white rounded-2xl shadow-2xl p-9 flex flex-row gap-x-20 items-center lg:flex-col lg:items-center lg:justify-center lg:gap-0 lg:py-6 lg:my-4 sm:w-full sm:h-fit": " -translate-x-20 blur-sm opacity-0 bg-gray-300 rounded-2xl shadow-2xl p-9 flex flex-row gap-x-20 items-center lg:flex-col lg:items-center lg:justify-center lg:gap-0 lg:py-16 sm:w-full sm:h-fit"}`}>
   
-      <div class={` ${myElementIsVisibleThree ? "bg-red-500 transition-all custom-duration delay-200 custom-width custom-height sm:w-full translate-x-0 sm:h-full": 'custom-width custom-height blur-sm opacity-0 -translate-x-20 sm:w-full sm:h-full' }`}></div>
+      <div class={` ${myElementIsVisibleThree ? "bg-gray-500 shadow-2xl rounded-lg transition-all custom-duration delay-1000 custom-width custom-height sm:w-full translate-x-0 sm:h-full": 'custom-width custom-height blur-sm opacity-0 -translate-x-20 sm:w-full sm:h-full' }`}></div>
       
-      <div class={`${myElementIsVisibleThree ? "transition-all custom-duration delay-500 translate-x-0  text-left custom-width flex flex-col gap-y-6 lg:text-center lg:gap-y-8 lg:justify-center lg:items-center sm:w-full": "blur-sm opacity-0 -translate-x-20 text-left custom-width flex flex-col gap-y-6 lg:text-center lg:gap-y-8 lg:justify-center lg:items-center sm:w-full"}`}>
-        <h1 class="text-black google-font text-5xl lg:pt-6">About me</h1>
+      <div class={`${myElementIsVisibleThree ? "transition-all custom-duration delay-1000 translate-x-0  text-left custom-width flex flex-col gap-y-6 lg:text-center lg:gap-y-8 lg:justify-center lg:items-center sm:w-full": "blur-sm opacity-0 -translate-x-20 text-left custom-width flex flex-col gap-y-6 lg:text-center lg:gap-y-8 lg:justify-center lg:items-center sm:w-full"}`}>
+        <h1 class="text-black quick-font text-5xl lg:pt-6">About me</h1>
         <p class="text-gray-600 google-font text-xl leading-tight">I've been studying website development for the past 2 years and have recently 
         completed my diploma of information Technology, specialsing in frontend and backend web development. I'm currently undertaking a bachelor of Information Technology at Queensland University of Technology.</p>
 

@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Bungee+Shade&family=Raleway&family=Urbanist:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 
 /* The typing effect */
 
@@ -25,6 +25,45 @@
     50% {
         border-color: orange;
     }
+}
+
+
+/* Tool tip*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* If you want dots under the hoverable text */
+}
+
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: 3px;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    transition: all;
+    transition-duration: 700ms;
 }
 
 .custom-duration {
@@ -144,7 +183,11 @@
 }
 
 .google-font {
-    font-family: 'Bebas Neue';
+    font-family: 'Quicksand';
+}
+
+.quick-font {
+    font-family: 'Quicksand';
 }
 
 .other-font {

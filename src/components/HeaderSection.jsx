@@ -21,7 +21,7 @@ const HeaderSection = () => {
     
   return (
 
-        <div ref={myRefFour}  class="bg-gradient-to-r from-pink-500 to-yellow-500 w-full h-fit min-h-screen flex justify-center items-center relative lg:w-auto lg:h-big lg:text-center lg:px-20 sm:pb-6 sm:h-big ">
+        <div ref={myRefFour}  class="bg-gradient-to-r from-pink-500 to-yellow-500 w-full h-fit min-h-screen flex justify-center items-center lg:w-auto lg:h-big lg:text-center lg:px-20 sm:pb-6 sm:h-big ">
           <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col lg:m-0 lg:justify-center lg:custom-width">
             <div class="lg:flex lg:justify-center">
             <div class="w-fit lg:w-fit">

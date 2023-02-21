@@ -5,7 +5,7 @@ const ContactSection = () => {
     
   return (
 
-    <div class="bg-gradient-to-r from-pink-500 to-yellow-500 w-full h-fit min-h-screen px-16 text-center relative justify-center flex flex-row gap-x-36 lg:flex-col lg:gap-0 lg:px-10 lg:h-fit sm:px-7">
+    <div class="bg-gradient-to-r from-yellow-500 to-purple-500 w-full h-fit min-h-screen px-16 text-center justify-center flex flex-row gap-x-36 lg:flex-col lg:gap-0 lg:px-10 lg:h-fit sm:px-7">
      
     <div class="flex text-left lg:text-center lg:justify-center lg:pb-16">
       <div class="custom-width">

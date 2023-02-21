@@ -6,6 +6,7 @@ import ProfileSection from './components/ProfileSection';
 import SkillsSection from './components/SkillsSection';
 import ProjectSection from './components/ProjectSection';
 import ContactSection from './components/ContactSection';
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <div className="App" class="h-screen lg:w-full lg:m-0 lg:p-0 lg:overflow-x-hidden">
+      <NavBar />
       <HeaderSection />
       <ProfileSection />
       <SkillsSection />   
