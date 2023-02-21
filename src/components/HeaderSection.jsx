@@ -25,10 +25,10 @@ const HeaderSection = () => {
           <div class="h-2/3 w-2/3 ml-28 mr-96 flex flex-auto flex-col lg:m-0 lg:justify-center lg:custom-width">
             <div class="lg:flex lg:justify-center">
             <div class="w-fit lg:w-fit">
-              <h1 class={`${myElementIsVisibleFour ? "text-black text-2xl google-font transition-all custom-duration delay-200": "text-black text-2xl google-font blur-sm opacity-0 -translate-y-20"}`}>Hi! My Name is Ezequiel Aleman</h1>
+              <h1 class={`${myElementIsVisibleFour ? "text-black text-2xl google-font transition-all custom-duration delay-500": "text-black text-2xl google-font blur-sm opacity-0 -translate-y-20"}`}>Hi! My Name is Ezequiel Aleman</h1>
             </div>
           </div>
-            <p class={`${myElementIsVisibleFour ? "transition-all custom-duration delay-200 text-white google-font text-5xl leading-tight lg:text-blue-200": "blur-sm opacity-0 -translate-y-20 text-blue-200 google-font text-5xl leading-tight lg:text-blue-200"}`}>
+            <p class={`${myElementIsVisibleFour ? "transition-all custom-duration delay-700 text-white google-font text-5xl leading-tight lg:text-blue-200": "blur-sm opacity-0 -translate-y-20 text-blue-200 google-font text-5xl leading-tight lg:text-blue-200"}`}>
              I am a fullstack website developer specialising in frontend development.</p>
               <div class={`${myElementIsVisibleFour ? " transition-all custom-duration delay-200 mt-8 flex flex-auto lg:justify-center sm:flex-col sm:justify-between sm:gap-y-5": "blur-sm opacity-0 translate-y-20 mt-8 flex flex-auto lg:justify-center sm:flex-col sm:justify-between sm:gap-y-5"}`}>
                 <a href="https://tailwindcss.com/docs/theme" class="text-white border-2 py-4 px-14 mr-8 other-font sm:m-0 sm:px-0">Click here</a>

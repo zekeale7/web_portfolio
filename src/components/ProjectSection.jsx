@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import '../css/style.css'
-import image from  "/public/profile.jpg"
-import background from  "/public/pexels-aleksandar-pasaric-3310691.jpg"
+
 
 const ProjectSection = () => {
 

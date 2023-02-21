@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+import { useRef } from 'react';
 import './css/style.css'
 import HeaderSection from './components/HeaderSection';
 import ProfileSection from './components/ProfileSection';
@@ -7,7 +9,9 @@ import ContactSection from './components/ContactSection';
 
 
 function App() {
-  
+
+
+
   return (
     <div className="App" class="h-screen lg:w-full lg:m-0 lg:p-0 lg:overflow-x-hidden">
       <HeaderSection />

@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useRef } from 'react';
 import '../css/style.css'
-import image from  "/public/profile.jpg"
-import background from  "/public/pexels-aleksandar-pasaric-3310691.jpg"
+
+
 
 const ProfileSection = () => {
 
@@ -25,9 +25,7 @@ const ProfileSection = () => {
    
     <div ref={myRefThree}  class="flex flex-row gap-x-20 items-center lg:flex-col lg:items-center lg:justify-center lg:gap-0 lg:py-16 sm:w-full sm:h-fit">
   
-      <div >
-        <img src={image} class={` ${myElementIsVisibleThree ? "transition-all custom-duration delay-200 custom-width custom-height sm:w-full translate-x-0 sm:h-full": 'custom-width custom-height blur-sm opacity-0 -translate-x-20 sm:w-full sm:h-full' }`}></img>
-      </div>
+      <div class={` ${myElementIsVisibleThree ? "bg-red-500 transition-all custom-duration delay-200 custom-width custom-height sm:w-full translate-x-0 sm:h-full": 'custom-width custom-height blur-sm opacity-0 -translate-x-20 sm:w-full sm:h-full' }`}></div>
       
       <div class={`${myElementIsVisibleThree ? "transition-all custom-duration delay-500 translate-x-0  text-left custom-width flex flex-col gap-y-6 lg:text-center lg:gap-y-8 lg:justify-center lg:items-center sm:w-full": "blur-sm opacity-0 -translate-x-20 text-left custom-width flex flex-col gap-y-6 lg:text-center lg:gap-y-8 lg:justify-center lg:items-center sm:w-full"}`}>
         <h1 class="text-black google-font text-5xl lg:pt-6">About me</h1>
